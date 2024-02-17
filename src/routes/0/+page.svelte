@@ -3,7 +3,7 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		goto('../');
+		goto('/turing-tinder');
 	});
 </script>
 
