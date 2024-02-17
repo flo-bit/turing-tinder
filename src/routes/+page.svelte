@@ -79,6 +79,11 @@
 				: 'Well done!';
 </script>
 
+<svelte:head>
+	<meta name="twitter:image" content="https://flo-bit.github.io/turing-tinder/results/0.png" />
+</svelte:head>
+
+
 <svelte:body
 	on:keydown={(e) => {
 		if (showMenu || showScoreScreen) return;

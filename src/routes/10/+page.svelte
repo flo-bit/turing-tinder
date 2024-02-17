@@ -8,5 +8,5 @@
 </script>
 
 <svelte:head>
-	<meta name="twitter:image" content="https://github.io/turing-tinder/results/10.png" />
+	<meta name="twitter:image" content="https://flo-bit.github.io/turing-tinder/results/10.png" />
 </svelte:head>

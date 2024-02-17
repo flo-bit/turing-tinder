@@ -2,11 +2,11 @@
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 
-	onMount(() => {
-		goto('/turing-tinder');
-	});
+	// onMount(() => {
+	// 	goto('/turing-tinder');
+	// });
 </script>
 
 <svelte:head>
-	<meta name="twitter:image" content="https://github.io/turing-tinder/results/0.png" />
+	<meta name="twitter:image" content="https://flo-bit.github.io/turing-tinder/results/0.png" />
 </svelte:head>
