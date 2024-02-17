@@ -55,8 +55,8 @@
 
 	let showMenu = true;
 
-	let aiImages = Array.from({ length: 10 }, (_, i) => `/turing-tinder/ai/${i}.png`);
-	let humanImages = Array.from({ length: 10 }, (_, i) => `/turing-tinder/human/${i}.jpg`);
+	let aiImages = Array.from({ length: 10 }, (_, i) => `/turing-tinder/ai/${i}.webp`);
+	let humanImages = Array.from({ length: 10 }, (_, i) => `/turing-tinder/human/${i}.webp`);
 
 	let allImages = aiImages.concat(humanImages);
 	// shuffle the images
