@@ -242,7 +242,7 @@
 
 			<TwitterShare
 				text="I just played Turing Tinder and got a score of {percentage.toFixed(0)}%! Can you beat me? 🤖🧑‍🎨"
-				url="https://flo-bit.github.io/turing-tinder/{percentage.toFixed(0)}?547849"
+				url="https://flo-bit.github.io/turing-tinder/{percentage.toFixed(0)}"
 				hashtags="aiORhuman,turingtinder"
 				via="flobit_dev"
 				related="sveltejs"
