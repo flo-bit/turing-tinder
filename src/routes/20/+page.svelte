@@ -3,10 +3,10 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		goto('https://flo-bit.github.io/turing-tinder/');
+		goto('/turing-tinder');
 	});
 </script>
 
 <svelte:head>
-	<meta name="twitter:image" content="https://flo-bit.github.io/turing-tinder/results/20.png" />
+	<meta name="twitter:image" content="https://flo-bit.github.io/turing-tinder/twitter/ai-human-20.png" />
 </svelte:head>

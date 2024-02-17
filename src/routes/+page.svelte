@@ -55,7 +55,7 @@
 
 	let showMenu = true;
 
-	let aiImages = Array.from({ length: 10 }, (_, i) => `/turing-tinder/profiles/${i}.png`);
+	let aiImages = Array.from({ length: 10 }, (_, i) => `/turing-tinder/ai/${i}.png`);
 	let humanImages = Array.from({ length: 10 }, (_, i) => `/turing-tinder/human/${i}.jpg`);
 
 	let allImages = aiImages.concat(humanImages);
@@ -116,7 +116,7 @@
 					wrongGuesses++;
 				}
 				allGuesses++;
-				if (allGuesses === 2) {
+				if (allGuesses === 20) {
 					showScoreScreen = true;
 
 					launchConfetti();
@@ -241,10 +241,10 @@
 			</div>
 
 			<TwitterShare
-				text="Can you tell which pictures where made by an AI and which by a human? Try it out!"
-				url="https://flo-bit.github.io/"
-				hashtags="svelte"
-				via="flo_bit"
+				text="I just played Turing Tinder and got a score of {percentage.toFixed(0)}%! Can you beat me? 🤖🧑‍🎨"
+				url="https://flo-bit.github.io/turing-tinder/{percentage.toFixed(0)}"
+				hashtags="aiORhuman,turingtinder"
+				via="flobit_dev"
 				related="sveltejs"
 			/>
 
